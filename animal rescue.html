@@ -1,0 +1,246 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Paw Loves</title>
+<link href="css/stylesheet.css" rel="stylesheet" type="text/css">
+<link href="css/bootstrap-4.4.1.js" rel="stylesheet" type="text/css">
+</head>
+<header>
+<div class="snip1260"><i class="ion-ios-paw-outline"></i>
+		<img src="images/logo.svg" alt="cat and dog"> 
+  <h1>
+    <c>Pa</c>
+    w
+    <d>lov</d>
+    e</h1>
+</div>
+<nav>
+<a id="resp-menu" class="responsive-menu" href="#"><i class="fa fa-reorder"></i>Menu</a>
+<ul class="menu">
+<li><a class="index.html" href="index.html"><i class="fa fa-paw"></i>HOME</a></li>
+<li><a  href="about us.html"><i class="about us.html"></i>ABOUT US</a></li>
+<li>
+<a  href="#"><i class="fa fa-paw"></i>FOSTER</a>
+<ul class="sub-menu">
+  <li><a href="blog.html">Blog</a></li>
+  <li><a href="animal rescue.html">Animal foster</a></li>
+  </li>
+</ul>
+<li><a  href="contact.html"><i class="fa fa-paw"></i>CONTACT US</a></li>
+<li><a  href="shop.html"><i class="fa fa-paw"></i>SHOP US</a></li>
+<li><a  href="vetcare.html"><i class="fa fa-paw"></i>VET CARE</a></li>
+</nav>
+</header>
+
+<body>
+<meta name="viewport" content="width=device-width, initial-scale=1"> 
+
+<div>
+  <header><br>
+  <h1 id="title">Dog Rescue Survey Form:</h1>
+    <p id="description">Fill in the below survey so that we can assess what type of dog would be suited for your family.</p>
+  </header>
+  <form id="survey-form">
+     <div class="form-group">
+       <label class="survey-question" id="name-label" for="name">Name:</label>
+      <input
+             type="text"
+             name="name"
+             id="name"
+             class="form-control"
+             placeholder="Enter your name"
+             required
+             />
+     </div>
+     <div class="form-group">
+       <label class="survey-question" id="email-label" for="email">Email:</label>
+       <input
+             type="email"
+             name="email"
+             id="email"
+             class="form-control"
+             placeholder="Enter your email"
+              required
+              />
+     </div>
+     <div class="form-group">
+       <label class="survey-question" id="number-label" for="number">Age:</label>
+       <input
+              type="number"
+              name="age"
+              id="number"
+              min="18"
+              max="99"
+              class="form-control"
+              placeholder="Enter your Age"
+              required
+              />
+       <div class="form-group">
+         <p class="survey-question"> Which option below best describes your weekends:</p>
+         <select id="dropdown" name="weekends" class="form-control" required>
+           <option disabled selected value>Select the option that best describes you</option>
+            <option value="couch">A day on the couch watching tv</option>
+           <option value="hikes"> A hiking day</option>
+           <option value="family"> A day spent with family</option>
+           <option value="Shopping"> A day out at the mall</option>
+           <option id="other">Other</option>
+           </select>
+           </div>
+     </div>
+     <div class="form-group"> 
+       <p class="survey-question">What size dog would you prefer?</p>
+       <label class="tick-box">
+         <input
+                name="dog-size"
+                value=" smalldog"
+                type="radio"
+                class="input-radio"
+                checked
+                /> Small Dog</label>
+       <label class="tick-box"><br>
+         <input
+                name="dog-size"
+                value="mediumdog"
+                type="radio"
+                class="input-radio"
+                /> Medium dog</label><br>
+       <label class="tick-box">
+         <input 
+                name="dog-size"
+                value="largedog"
+                type="radio"
+                class="input-radio"
+                /> Large dog</label>
+     
+     </div>
+     <div class="form-group">
+       <p class="survey-question"> Which option below best descibes the house you live in?</p>
+       <select id="housing" name="housing" class="form-control" required>
+         <option value="Select" selected-disabled="disabled"> Select your type of house:</option>
+         <option value="house">House with garden</option>
+               <option value="townhouse">Town-house</option>
+         <option value="plot">Plot</option>
+         <option value="apartment">Apartment</option>
+         <option value="other"> Other</option>
+       </select>
+    </div>
+     <div class="group-form">
+       <p class="survey-question"> What are your working hours like?</p>
+       <label class="tick-box">
+         <input
+                name="working-hours"
+                value="full-time"
+                type="checkbox"
+                class="input-checkbox"
+                checked
+                /> Full-time
+         </label><br>
+       <label class="tick-box">
+         <input
+                name="working-hours"
+                value= "part-time"
+                type="checkbox"
+                class="input-checkbox"
+                /> Part-time</label>
+       <label class="tick-box"><br>
+         <input
+                name="working-hours"
+                value="Half-day"
+                type="checkbox"
+                class="input-checkbox"
+                /> Half-Day</label><br>
+       <label class="tick-box">
+         <input 
+                name="working-hours"
+                value="unemployed"
+                type="checkbox"
+                class="input-checkbox"
+                />Unemployed</label><br>
+       <label class="tick-box">
+              <input
+                     name="working hours"
+                     value="other"
+                     type="checkbox"
+                     class="input-checkbox"/>Other</label>
+      
+       
+     </div>
+     <div class="group-form">
+       <p class="survey-question"> Please leave any additional requirments you may want us to know.</p>
+       <textarea
+                 id="comments"
+                 class="input-textarea"
+                 name="comments"
+                 placeholder="Enter your comments here"></textarea>
+     </div>
+     <div>
+       <button type="submit" id="submit" class="submit-button">Submit</button>
+              
+     </div>
+    </form>
+    
+</div>
+
+       <br>
+       <br>
+       <br>
+       <br>
+     <br>
+     <br>
+<footer class="footer-distributed">
+ 
+			<div class="footer-left">
+        
+				<h3><span> PawLove</span></h3>
+ 
+				<p class="footer-links">
+					<a href="#">Home</a>
+					|
+					<a href="#">Blog</a>
+					|
+					<a href="#">About</a>
+					|
+					<a href="#">Contact</a>
+				</p>
+ 
+				<p class="footer-company-name">© 2023 PL Paw Love</p>
+  </div>
+ 
+			<div class="footer-center">
+				<div>
+					<i class="fa fa-map-marker"></i>
+					  <p><span> Dublin 10,
+						 River Liffey. No. A - 1, Sector - 1</span>
+						inner city, Dub, Irl</p>
+				</div>
+ 
+				<div>
+					<i class="fa fa-phone"></i>
+					<p>(083) 082 5631</p>
+				</div>
+				<div>
+					<i class="fa fa-envelope"></i>
+					<p><a href="mailto:support@eduonix.com">pawLove24@gmail.com</a></p>
+				</div>
+			</div>
+			<div class="footer-right">
+				<p class="footer-company-about">
+					<span>About Paw Love</span>
+					We offer training and skill building for animals</p>
+				<div class="footer-icons">
+					<a href="#"><i class="fa fa-facebook"></i></a>
+					<a href="#"><i class="fa fa-twitter"></i></a>
+					<a href="#"><i class="fa fa-instagram"></i></a>
+					<a href="#"><i class="fa fa-linkedin"></i></a>
+					<a href="#"><i class="fa fa-youtube"></i></a>
+				</div>
+			</div>
+</footer>
+	
+</body>
+	
+</html>
+
